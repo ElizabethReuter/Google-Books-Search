@@ -1,16 +1,13 @@
 import React from "react";
 
-function Jumbotron() {
+function Jumbotron({ children }) {
     return (
-        <div>
-            <Jumbotron>
-              <h1>Google Books Search</h1>
-                <p>
-                  Search for and Save Books of Interest
-                </p>
-            </Jumbotron>
+        <div className="jumbotron jumbotron-fluid d-flex align-items-center">
+            <div className="container text-center">
+                {children}
+            </div>
         </div>
     );
-  }
+}
 
-  export default Jumbotron;
+export default Jumbotron;
