@@ -1,20 +1,18 @@
 import React from "react";
 
-function Search() {
+function SearchBooks() {
     return (
         <form>
             <div className="form-group">
                 <label className="BookSearchLabel"><h3>Book Search</h3></label>
                 <br></br>
-                <input className="col-12 form-control"
-                    value={props.search}
+                <input 
                     type="text"
                     name="searchBook"
                     placeholder="Search Books"
-                    onChange={props.handleInputChange}
                 />
             </div>
-            <button type="submit" className="submitBtn btn btn-primary" onClick={props.handleFormSubmit}>
+            <button type="submit" className="submitBtn btn btn-primary">
                 Submit
             </button>
         </form>
@@ -23,4 +21,4 @@ function Search() {
 
 
 
-export default Search;
+export default SearchBooks;

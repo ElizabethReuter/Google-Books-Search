@@ -2,7 +2,7 @@ import React from "react";
 import Container from 'react-bootstrap/Container'
 import Jumbotron from "../components/Jumbotron";
 import Nav from "../components/Nav";
-import Search from "../components/Search";
+import SearchBooks from "../components/SearchBooks";
 import Results from "../components/Results";
 
 function Search() {
@@ -10,7 +10,7 @@ function Search() {
     <Container fluid>
         <Nav />
         <Jumbotron /> 
-        <Seach />
+        <SearchBooks />
         <Results />
     </Container>
   );
