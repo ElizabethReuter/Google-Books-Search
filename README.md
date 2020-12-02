@@ -8,6 +8,7 @@ Users will be able to search and find a book title. After a search is performed 
 
  
 ## Screenshots
+<img width="1400" alt="screenshot" src="https://user-images.githubusercontent.com/71082846/100919945-7d85c180-34a8-11eb-9457-95679ae31daa.png">
 
 
 ## Tech/framework used
